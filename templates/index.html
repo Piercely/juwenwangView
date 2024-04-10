@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>新闻聚合系统View网站</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="static/img/favicon.png" rel="icon">
+    <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="static/assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="static/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<!-- ======= Header ======= -->
+<header id="header">
+    <div class="container">
+
+        <div class="logo float-left">
+            <h1 class="text-light"><a href="/index"><span>聚闻网View</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="temp.html"><img src="static1/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav class="nav-menu float-right d-none d-lg-block">
+            <ul>
+                <li class="active"><a href="/index">首页<i class="la la-angle-down"></i></a></li>
+                <li><a href="/news2">聚闻热搜</a></li>
+                <li><a href="/news">新闻</a></li>
+                <li><a href="/analysis">词频可视化</a></li>
+                <li><a href="/word">词云</a></li>
+                <li><a href="/search">搜索</a></li>
+                <li><a href="/data_analysis">数据可视化分析</a></li>
+                <li><a href="/denglu">登录</a></li>
+
+            </ul>
+        </nav><!-- .nav-menu -->
+
+    </div>
+</header><!-- End Header -->
+
+<!-- ======= Our Team Section ======= -->
+<section id="team" class="team">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>聚闻网View</h2>
+            <p>用更小的屏幕，看到更大的世界！</p>
+        </div>
+
+        <!-- ======= Counts Section ======= -->
+        <section class="counts section-bg">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
+                        <a href="/news2">
+                            <div class="count-box">
+                                <i class="icofont-simple-smile" style="color: #20b38e;"></i>
+                                <span>聚闻热搜</span>
+                                <p>聚闻热搜</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
+                        <a href="/news">
+                            <div class="count-box">
+                                <i class="icofont-simple-smile" style="color: #20b38e;"></i>
+                                <span>聚闻新闻</span>
+                                <p>聚闻新闻</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <a href="/word">
+                            <div class="count-box">
+                                <i class="icofont-document-folder" style="color: #c042ff;"></i>
+                                <span>词云</span>
+                                <p>词云图</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
+                        <a href="/analysis">
+                            <div class="count-box">
+                                <i class="icofont-live-support" style="color: #46d1ff;"></i>
+                                <span>词汇统计</span>
+                                <p>{{ news_info[2] }}</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
+                        <a href="/data_analysis">
+                            <div class="count-box">
+                                <i class="icofont-simple-smile" style="color: #20b38e;"></i>
+                                <span>可视化</span>
+                                <p>可视化</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
+                        <a href="/denglu">
+                            {#                这里改成你的个人主页就好了！#}
+                            <div class="count-box">
+                                <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
+                                <span>主页</span>
+                                <p>个人主页</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
+                        <a href="/search">
+                            {#                这里改成你的个人主页就好了！#}
+                            <div class="count-box">
+                                <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
+                                <span>聚闻搜索</span>
+                                <p>搜索</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
+                        <a href="/search">
+                            {#                这里改成你的个人主页就好了！#}
+                            <div class="count-box">
+                                <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
+                                <span>全网搜索</span>
+                                <p>搜索</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Counts Section -->
+
+    </div>
+</section><!-- End Our Team Section -->
+<!DOCTYPE HTML>
+
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Enovo daijiachang</span></strong>. All Rights Reserved
+        </div>
+
+    </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="static/assets/vendor/jquery/jquery.min.js"></script>
+<script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="static/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+{#<script src="static/assets/vendor/php-email-form/validate.js"></script>#}
+<script src="static/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+<script src="static/assets/vendor/venobox/venobox.min.js"></script>
+<script src="static/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="static/assets/vendor/counterup/counterup.min.js"></script>
+<script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="static/assets/vendor/aos/aos.js"></script>
+
+<!-- Template Main JS File -->
+<script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
